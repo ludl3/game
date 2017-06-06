@@ -1,0 +1,10 @@
+webapp     //根目录
+    |--pages 各模块的
+    |--components //本工程相关公共组件模块
+    |--styles   //本工程styles集合
+      |--css    //所有css文件
+      |--fonts  //iconfont文件
+      |--less   //less文件
+    |--utils //本工程工具方法集合
+    |--images //本工程图片资源集合
+    |--constants //本工程常量集合
