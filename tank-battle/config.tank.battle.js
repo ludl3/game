@@ -21,7 +21,7 @@ module.exports = {
       {
         test: /\.js?$/,
         exclude: /node_modules/,
-        use: ['react-hot','babel-loader?presets[]=react,presets[]=es2015']
+        loaders: ['react-hot','babel-loader?presets[]=react,presets[]=es2015']//未在api中找到此属性的替换方法
       },
       { 
         test: /\.less$/, 
