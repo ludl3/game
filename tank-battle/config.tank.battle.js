@@ -61,6 +61,7 @@ module.exports = {
       "components": path.join(cwd, "./webapp/components"),
       "utils": path.join(cwd, "./webapp/utils")
     }
+  },
   plugins: [
     new ExtractTextPlugin("styles.css")
   ]
