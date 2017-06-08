@@ -88,7 +88,7 @@ module.exports = {
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new ExtractTextPlugin({
-      filename: "styles.css",
+      filename: "bundle.css",
       disable: false,
       allChunks: true
     })

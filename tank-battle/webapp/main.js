@@ -1,7 +1,8 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+import Index from './pages/Index';
 ReactDOM.render
     (
-        <div>welcome</div>
+        <Index/>
         , document.getElementById('root')
     );
